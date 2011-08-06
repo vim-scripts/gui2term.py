@@ -1,12 +1,12 @@
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=2778
 
-Requirement: python3 for 2.0+. It should not be hard to make it work under Python 2 if you write Python scripts.
-Usage:
-invoke it like this in commandline.
+Requirement: python3 for 2.0+. However, it should not be hard to make it work under Python 2 if you are familiar with Python (you can try the `2to3` command).
 
-./gui2term.py sourcefile newfile
+Usage:
+invoke it like this in commandline:
+  ./gui2term.py sourcefile newfile
 or
-python3 gui2term.py sourcefile newfile
+  python3 gui2term.py sourcefile newfile
 
 Note:
 * It searches and processes lines in a vim colorscheme that seems like a normal highlight command, so it does not work with all the colorscheme.
